@@ -17,11 +17,39 @@
 
 [class*="colonna-"]{
     float: left;
-    height: 100px;
+    height: 200px;
     /* da eliminare la parte sotto */
-    background-color: pink;
-    border: 1px solid black;
-    text-align: center
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.sfondo{
+    background-image: url(https://images.fineartamerica.com/images-medium-large-5/1-silhouette-of-man-running-at-sunset-michal-bednarek.jpg);
+    height:200px;
+    background-size: cover;
+    background-position: center;
+}
+
+ #animation {
+  height: 200px;
+  background-image: url('https://images.squarespace-cdn.com/content/v1/5c5332c4d745628dd221ed92/1565644850599-AIVV64Q6Q6JA4EXBQMK8/ke17ZwdGBToddI8pDm48kLXCf88_9uNTKXkq27cF4sB7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QHyNOqBUUEtDDsRWrJLTmzUsryC7riGV7bTeYhg5Sep4Y8p3OCJVqs3FfNTLch3O2M0DsfUdwheg190rC2-Re/107-1075454_super-mario-world-super-mario-background-drawing.jpg?format=2500w');
+  background-position: top left;
+  animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+  50% {background-position: center;}
+}
+
+#animation2 {
+ height: 200px;
+ background-image: url('https://images.squarespace-cdn.com/content/v1/5c5332c4d745628dd221ed92/1565644850599-AIVV64Q6Q6JA4EXBQMK8/ke17ZwdGBToddI8pDm48kLXCf88_9uNTKXkq27cF4sB7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QHyNOqBUUEtDDsRWrJLTmzUsryC7riGV7bTeYhg5Sep4Y8p3OCJVqs3FfNTLch3O2M0DsfUdwheg190rC2-Re/107-1075454_super-mario-world-super-mario-background-drawing.jpg?format=2500w');
+ background-position: top left;
+ animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+ 50% {background-position: center;}
 }
 
 /* COLONNE */
@@ -62,25 +90,43 @@
     width: calc(100% / 12 * 12);
 }
 
-/* COLORI */
-.purple{
-    background-color: purple;
-}
+/* SFONDI */
 
-.green{
-    background-color: green;
+#background1{
+    background-image: url(https://vignette.wikia.nocookie.net/mariosupernintendo/images/9/91/Goomba.jpg/revision/latest/scale-to-width-down/340?cb=20100111214959&path-prefix=es);
+    height: 200px;
+    background-size: cover;
 }
-
-.red{
-    background-color: red;
+#background2{
+    background-image: url('https://www.pinclipart.com/picdir/middle/343-3431284_super-mario-icons-flower-clipart.png');
+    height: 200px;
+    background-size: cover;
 }
-
-.orange{
-    background-color: orange;
+#background3{
+    background-image: url('https://i.pinimg.com/originals/95/58/c9/9558c998335fb0dfa3158b2d2e95f70f.jpg');
+    height: 200px;
+    background-size: cover;
 }
-
-.black{
-    background-color: black;
+#background4{
+    background-image: url('https://art.pixilart.com/3cf3db6a83574ee.png');
+    height: 200px;
+    background-size: cover;
+}
+#background5{
+    background-image: url('https://image.jeuxvideo.com/medias-sm/149340/1493395806-1131-capture-d-ecran.png');
+    height: 200px;
+    background-size: cover;
+}
+#background6{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSR9dqWFinnNxEO84bntaNn9cRT3D4Xg3mWezAbTTOLh9Ap3MxR');
+    height: 200px;
+    background-size: cover;
+}
+#background7{
+    background-image: url('https://i.pinimg.com/originals/07/fe/54/07fe54bedba6cc3f8dd05f42823bb840.jpg');
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .colonna-2 img{
@@ -89,6 +135,8 @@
     object-fit: contain;
     padding-bottom: 50px;;
 }
+
+
 /* OFFSET */
 
 .colonna-offset-0 {
@@ -141,11 +189,8 @@
 
 /* PARTE RESPONSIVE */
 
-@media all and (max-width: 414px){
+@media all and (max-width: 450px){
 
-    .container{
-
-    }
 
     /* COLONNE SMALL (Phone)*/
     .small-1 {
@@ -236,7 +281,7 @@
         margin-left: calc(100% / 12 * 11);
     }
 
-@media all and (min-width: 414px){
+@media all and (min-width: 451px){
 
     /* COLONNE MEDIUM (Tablet)*/
     .medium-1 {
@@ -327,7 +372,7 @@
     }
 }
 
-@media all and (min-width: 768px;){
+@media all and (min-width: 768px){
 
     /* COLONNE LARGE (Pc)*/
     .large-1 {
