@@ -95,32 +95,38 @@
 #background1{
     background-image: url(https://vignette.wikia.nocookie.net/mariosupernintendo/images/9/91/Goomba.jpg/revision/latest/scale-to-width-down/340?cb=20100111214959&path-prefix=es);
     height: 200px;
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 #background2{
-    background-image: url('https://www.pinclipart.com/picdir/middle/343-3431284_super-mario-icons-flower-clipart.png');
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSD6qFUv_1mx4frkaHrzT4pSCdhtqNbzuayq6STOkBOOz51pOSk');
     height: 200px;
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 #background3{
     background-image: url('https://i.pinimg.com/originals/95/58/c9/9558c998335fb0dfa3158b2d2e95f70f.jpg');
     height: 200px;
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 #background4{
     background-image: url('https://art.pixilart.com/3cf3db6a83574ee.png');
     height: 200px;
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 #background5{
     background-image: url('https://image.jeuxvideo.com/medias-sm/149340/1493395806-1131-capture-d-ecran.png');
     height: 200px;
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 #background6{
-    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSR9dqWFinnNxEO84bntaNn9cRT3D4Xg3mWezAbTTOLh9Ap3MxR');
+    background-image: url('https://img.elo7.com.br/product/zoom/20E5128/rotulo-tubete-estrela-mario-lembrancinha-mario.jpg');
     height: 200px;
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 #background7{
     background-image: url('https://i.pinimg.com/originals/07/fe/54/07fe54bedba6cc3f8dd05f42823bb840.jpg');
