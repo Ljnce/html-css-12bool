@@ -197,7 +197,9 @@
 
 @media all and (max-width: 450px){
 
-
+    .contain{
+        max-width: 1000px;
+    }
     /* COLONNE SMALL (Phone)*/
     .small-1 {
         width: calc(100% / 12 * 1);
